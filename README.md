@@ -1,7 +1,7 @@
-### FrontEnd-Learning
+# FrontEnd-Learning
 
-# HTML
+## HTML
 
-# CSS
+## CSS
 
-# Javascript
+## Javascript
