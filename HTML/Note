@@ -1,0 +1,26 @@
+! HTML ! (HyperText Makrup Language)
+
+* 파일 생성
+- 확장자 .HTML
+
+* 태그
+- 태그내에 속성 순서 무관
+
+[문서 태그]
+<html>
+<head>
+<title> : 창 제목 테그
+<meta charset="utf-8">
+
+[본문 태그]
+<body>
+<h1> : 헤드테그
+<strong> : 강조
+<a> : 하이퍼 텍스트
+- href : 현재 페이지에서 링크로 넘기기
+- target : 새로운 페이지로 링크 넘기기
+
+[list] 태그]
+<ol> : 그룹핑 / 하위항목 숫자 (order list)
+<ul> : 그룹핑 / 하위항목 · (unorder list)
+<li> : 목록
