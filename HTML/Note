@@ -19,8 +19,30 @@
 <a> : 하이퍼 텍스트
 - href : 현재 페이지에서 링크로 넘기기
 - target : 새로운 페이지로 링크 넘기기
+<p> : 단락지정 -> css를 통해 간격의 정도 조정 가능
+<br> : 줄바꿈
+<img> : 이미지 삽입
+- src : 경로
+- width/height
+- alt : 파일 경로내에서 불러오지 못할 경우 대안
+- title : 마우스 커서를 대면 활성화되는 문구
+
+<table>
+- border : 표 두께
+<thead>
+<tbody>
+<tr> : 같은 행 그룹핑
+<td> : 각 요소
+- rowspan : 열 합치기
+- colspan : 행 합치기
 
 [list] 태그]
 <ol> : 그룹핑 / 하위항목 숫자 (order list)
 <ul> : 그룹핑 / 하위항목 · (unorder list)
 <li> : 목록
+
+[form]
+<input>
+type : 인풋타입지정
+- text, password
+- submit : 제출
