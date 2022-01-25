@@ -41,8 +41,17 @@
 <ul> : 그룹핑 / 하위항목 · (unorder list)
 <li> : 목록
 
-[form]
+[form - 문자입력]
+- action : 데이터를 보낼 위치
 <input>
-type : 인풋타입지정
-- text, password
-- submit : 제출
+- type : 인풋타입지정
+text, password
+submit : 제출
+- name
+
+[form - dropdown list]
+<select>
+name : 서버쪽에 넘길 속성이름
+multiple : 다중선택
+<option>
+value : 서버쪽에 넘길 값
