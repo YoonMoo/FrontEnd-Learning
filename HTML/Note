@@ -44,10 +44,21 @@
 [form - 문자입력]
 - action : 데이터를 보낼 위치
 <input>
+- id : label id와 값을 매칭
+- name
 - type : 인풋타입지정
 text, password
 submit : 제출
-- name
+radio : 라디오버튼
+> name : 라디오 그룹 묶기
+> value
+> checked : 디폴트 선택값 
+checkbox : 다중선택버튼
+button
+hidden : UI X, 서버에 값을 넘겨줄 수 있음
+
+<label> : 감싸줌으로써 의미를 둔다(표준)
+- for : input id와 값을 매칭
 
 [form - dropdown list]
 <select>
